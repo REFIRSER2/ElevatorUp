@@ -30,6 +30,11 @@ namespace RF.Player
         
         #region 애니메이터
         [SerializeField] private Animator animator;
+
+        public Animator GetAnimator()
+        {
+            return animator;
+        }
         #endregion
         
         #region 컨트롤러

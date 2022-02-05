@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6c6e429e3d24cd3499fd5eef8ac33f93
+guid: d4a9a3a2e8c4c6a4d9ff38247b7d3ea2
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -7,18 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Bronze_se4pcbbc
-    second: {fileID: 2100000, guid: 7bbceed22ccfc814293ccb16bc35d8ad, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Brushed_Aluminum_shkaaafc
-    second: {fileID: 2100000, guid: 12d4e86ef1f85014aa42a47ed026474d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Brushed_Steel_shkafchc
-    second: {fileID: 2100000, guid: 3a37c5f44b4dc83458ce50dd4c6a1e70, type: 2}
+      name: Marble
+    second: {fileID: 2100000, guid: 33b7c825bdfadbb419a29af049ef9699, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -27,22 +17,42 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.004
-    second: {fileID: 2100000, guid: 3f3ac6d386915d843ac8672fd293b335, type: 2}
+      name: Material.002
+    second: {fileID: 2100000, guid: 4ef4fad8cbe0ac84091c1d211b334d04, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: No Name
-    second: {fileID: 2100000, guid: 7937a3e8938878c4196189f27d035691, type: 2}
+      name: Metal
+    second: {fileID: 2100000, guid: 3ed2b499eb8a24e4fbe335035469b196, type: 2}
   - first:
-      type: UnityEngine:Material
+      type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: Patterned_Marble_ulgmehvfw
-    second: {fileID: 2100000, guid: 417522568f268194e83283cd90c329b1, type: 2}
+      name: Marble062_COL_3K
+    second: {fileID: 2800000, guid: 5b75fbe1a2c6c5d4cb3a3683de1ac952, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Marble062_NRM16_3K
+    second: {fileID: 2800000, guid: a4c40cd43f8c4134b9865d12f0c40fd1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MetalStainlessSteelBrushedElongated005_COL_3K_METALNESS
+    second: {fileID: 2800000, guid: 1ea0ba145ac496e4a8bdc2c74797003e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MetalStainlessSteelBrushedElongated005_NRM16_3K_METALNESS
+    second: {fileID: 2800000, guid: 45e19359657a13747afcebc175623cd6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MetalStainlessSteelBrushedElongated005_ROUGHNESS_3K_METALNESS
+    second: {fileID: 2800000, guid: 1df3c37d146b99c49ae71f7e00b79e3f, type: 3}
   materials:
-    materialImportMode: 1
+    materialImportMode: 2
     materialName: 0
-    materialSearch: 0
+    materialSearch: 1
     materialLocation: 1
   animations:
     legacyGenerateAnimations: 4

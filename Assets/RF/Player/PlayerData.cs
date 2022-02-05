@@ -1,19 +1,32 @@
+using UnityEngine;
+
 namespace RF.Player
 {
     public class PlayerData 
     {
         #region 플레이어 그리드 포지션
 
-        private int curPosIndex = 0;
+        private int curPosX = 0;
+        private int curPosY = 0;
 
-        public int GetPosIndex()
+        public int GetXPos()
         {
-            return curPosIndex;
+            return curPosX;
+        }
+        
+        public int GetYPos()
+        {
+            return curPosY;
         }
 
-        public void SetPosIndex(int num)
+        public void SetXPos(int num)
         {
-            curPosIndex = num;
+            curPosX = num;
+        }
+
+        public void SetYPos(int num)
+        {
+            curPosY = num;
         }
 
         #endregion

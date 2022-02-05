@@ -34,7 +34,7 @@ namespace RF.Game
         #endregion
         
         #region 게임 진행
-        [SerializeField] private Elevator.Elevator elevator;
+        public Elevator.Elevator elevator;
         
         private void GameThink()
         {
@@ -91,7 +91,8 @@ namespace RF.Game
             Vector3 spawnPos = elevator.movePosList[index % 4, index / 4].transform.localPosition + new Vector3(0,0.2F, 0);
             player.transform.localPosition = new Vector3(spawnPos.x, player.transform.localPosition.y, spawnPos.z);
             
-            player.GetPlayerData().SetPosIndex(index);
+            player.GetPlayerData().SetXPos(index%4);
+            player.GetPlayerData().SetYPos(index/4);
         }
 
         public Player.Player GetPlayer()
